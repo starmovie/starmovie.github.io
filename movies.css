@@ -7,13 +7,9 @@ h1{
 	text-align: center;
 	font-size: 60px;
     border: 10px solid blue;
-    width: 600px;
     border-radius: 50px;
     padding: 10px;
     margin: 15px;
-    -webkit-font-family: 'Blaka', cursive;
-	-ms-font-family: 'Blaka', cursive;
-    font-family: 'Blaka', cursive;
 }
 
 p{
@@ -24,21 +20,9 @@ p{
 	text-align: center;
 	font-size: 2em;
 	margin: 15px;
-	-webkit-font-family: 'Blaka', cursive;
-	-ms-font-family: 'Blaka', cursive;
-	font-family: 'Blaka', cursive;
 	-moz-text-decoration: underline;
 	-webkit-text-decoration: underline;
 	-o-text-decoration: underline;
 	-ms-text-decoration: underline;
 	text-decoration: underline;
-}
-
-
-.vasat{
-	-o-position: relative;
-	-webkit-position: relative;
-	position: relative;
-	left: 370px;
-    margin: 15px;
 }
