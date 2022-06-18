@@ -1,0 +1,21 @@
+body{
+	background-color: #101014;
+}
+
+img{
+	margin: 5px;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+.container {
+  flex-wrap:wrap;
+}
+
+.back{
+	text-align: center;
+	color: red;
+}

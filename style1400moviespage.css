@@ -1,0 +1,94 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #101014;
+}
+
+img{
+    border-radius: 16px;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    left: 70em;
+    top: 30px;
+}
+
+h2{
+    text-align: right;
+    color: white;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    right: 280px;
+    bottom: 290px;
+}
+
+.zhanr{
+    text-align: right;
+    color: white;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    right: 280px;
+    bottom: 290px;
+}
+
+div{
+    text-align: right;
+    color: white;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    right: 250px;
+    bottom: 280PX;
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    line-height: 2em;
+    background-color: gray;
+}
+
+section{
+    -o-position: relative;
+    -webkit-position: relative;
+   position: relative;
+   top: 40px;
+}
+
+.link{
+    color: white;
+    text-align: center;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    bottom: 200px;
+    font-size: large;
+}
+
+
+.btn{
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    bottom: 170px;
+    left: 320px;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    cursor: pointer;
+    height: 100%;
+    width: 50%;
+}
+
+
+.back{
+    text-align: center;
+    color: white;
+    -o-position: relative;
+    -webkit-position: relative;
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+}
