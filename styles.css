@@ -1,0 +1,238 @@
+* {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    color: #61666c;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+body {
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 1800px;
+    background-color: #f8f8f8;
+    color: #2f343f;
+}
+
+thead {
+    background-color: #00000012;
+}
+
+table {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 25px 25px -10px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+#list thead {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+}
+
+#list thead tr th {
+    padding: 10px;
+}
+
+#list tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+h1 {
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 3em;
+}
+
+a {
+    color: #2f343f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.clear,
+a.clear:link,
+a.clear:visited {
+    color: #666;
+    padding: 2px 0;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 0 20px;
+    line-height: 14px;
+    display: inline-block;
+    border-bottom: transparent 1px solid;
+    vertical-align: -10px;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+input {
+    margin: 0 auto;
+    font-size: 100%;
+    vertical-align: middle;
+    *overflow: visible;
+    line-height: normal;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #555;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 32px 4px 6px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 196px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+input:focus {
+    outline: 0;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+}
+
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+#search {
+    color: #262a32;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 20px;
+    padding: 15px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+    width: 80% !important;
+    word-break: break-all;
+    min-width: 150px !important;
+}
+
+thead tr th:nth-child(2),
+tbody tr td:nth-child(2) {
+    width: 5% !important;
+    word-break: break-all;
+    min-width: 130px !important;
+    text-align: left;
+    color: #262a32;
+}
+
+thead tr th:nth-child(3),
+tbody tr td:nth-child(3) {
+    width: 10% !important;
+    word-break: break-all;
+    min-width: 150px !important;
+    text-align: left;
+    color: #262a32;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+tr {
+    outline: 0;
+    border: 0;
+}
+
+tr:hover td {
+    color: #ffffff;
+    background: #b0d7ff;
+}
+
+tr td:first-of-type {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr.parent a {
+    color: #262a32;
+}
+
+th {
+    text-align: left;
+    font-size: 0.75em;
+    padding-right: 20px;
+}
+
+th+th {
+    width: 25%;
+}
+
+th+th+th+th {
+    width: 5%;
+}
+
+td {
+    padding: 5px 0;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #edf1f5;
+    vertical-align: middle;
+    text-align: left;
+    cursor: pointer;
+}
+
+td:last-child,
+th:last-child {
+    text-align: right;
+    padding-right: 0;
+}
+
+td a {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.parent a:hover {
+    color: #2a2a2a;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
