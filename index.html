@@ -46,7 +46,7 @@
 		<!-- heading------------>
 		<h1 class="showcase-heading">Showcase</h1>
 
-		<ul id="autoWidth" class="cs-hidden">
+		<ul id="autoWidth" class="cs-hidden" id="lightSlider">
 			<!-- box-1--------------------------->
   			<li class="item-a">
   		<!-- showcase-box--------------->
@@ -313,5 +313,18 @@
 	});
   });
 	</script>
+
+	<script type="text/javascript">
+  $(document).ready(function() {
+    var slider = $("#lightSlider").lightSlider();
+    slider.goToSlide(3);
+    slider.goToPrevSlide();
+    slider.goToNextSlide();
+    slider.getCurrentSlideCount();
+    slider.refresh();
+    slider.play(); 
+    slider.pause();    
+  });
+</script>
 </body>
 </html>
