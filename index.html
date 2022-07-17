@@ -1,31 +1,317 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="movies.css">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Star Movies</title>
-
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/lightslider.css"/>
+	<!-- js-link------------------>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/lightslider.js"></script>
+	<!-- fav-icon ----------->
+	<link rel="shortcut icon" href="images/staricon.png"/>
+	<!-- using FontAwesome-------->
+	<script src="https://kit.fontawesome.com/c8e4d18c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div>
-		<h2 class="logo">Star movie</h2>
-	</div>
-<div>
+	<!-- navigation---------->
+	<nav>
+		<!-- logo---------->
+		<a href="#" class="logo">
+			<img src="images/logo.png"/>
+		</a>
+		<!-- menu--btn------------------>
+		<input type="checkbox" class="menu-btn" id="menu-btn"/>
+		<label class="menu-icon" for="menu-btn">
+			<span class="nav-icon"></span>
+		</label>
+		<!---menu--------->
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="page1.html">Movies</a></li>
+			<li><a href="page1tvshow.html">TV Shows</a></li>
+			
+		</ul>
+		<!-- Search---------->
+		<div class="search">
+			<input type="text" placeholder="Find Your Favorite Movies"/>
+			<!-- search-icon------->
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
+	</nav>
+	<section id="main">
+		<!-- showcase----------->
+		<!-- heading------------>
+		<h1 class="showcase-heading">Showcase</h1>
 
-	<section>
-<h1><span>↓↓</span>choose your country<span>↓↓</span></h1>
-  </section>
-</div>
-<a href="iran.html">
-<p>Iran</p>
+		<ul id="autoWidth" class="cs-hidden">
+			<!-- box-1--------------------------->
+  			<li class="item-a">
+  		<!-- showcase-box--------------->
+		<div class="showcase-box">
+			<a href="atabay.html">
+    						<img src="1401/Atabayshowcase.jpg">
+						</a>
+		</div>
+  			</li>
+  			<!-- box-2--------------------------->
+  			<li class="item-b">
+  		<!-- showcase-box--------------->
+		<div class="showcase-box">
+			<a href="majboorim.html">
+			<img src="1401/Majboorimshowcase.jpg"/>
+			</a>
+		</div>
+  			</li>
+  			<!-- box-3--------------------------->
+  			<li class="item-c">
+  		<!-- showcase-box--------------->
+		<div class="showcase-box">
+			<a href="gorbehsiah.html">
+			<img src="1401/gorbehsiahshowcase.jpg"/>
+			</a>
+		</div>
+  			</li>
+  			<!-- box-4--------------------------->
+  			<li class="item-d">
+  		<!-- showcase-box--------------->
+		<div class="showcase-box">
+			<a href="golbekhody.html">
+			<img src="1401/golbekhodyshowcase.jpg"/>
+			</a>
+		</div>
+  			</li>
+  			<!-- box-5--------------------------->
+  			<li class="item-e">
+  		<!-- showcase-box--------------->
+		<div class="showcase-box">
+			<a href="shadravan.html">
+			<img src="1401/Shadravan-Movie-Poster.jpg"/>
+			</a>
+		</div>
+  			</li>
+  		
+		</ul>
+
+		
+	</section>
+	<!-- latest-movies--------------->
+	<section id="latest">
+		<h2 class="latest-heading">Latest Movies</h2>
+		<!-- slider----------------------------->
+		<ul id="autoWidth2" class="cs-hidden">
+			<!-- slide-box-1------------------>
+  			<li class="item-a">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="jadoogar.html">
+    <img src="images/jadoogar10.jpg">
 </a>
-<p>American</p>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Jadoogar</strong>
+  						<p>Comedy,Family Movie</p>
+  						
+  					</div>
+  				</div>
+  			</li>
+  			<!-- slide-box-1------------------>
+  			<li class="item-a">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="shahrakkelilehvadamne.html">
+    <img src="images/shahrakekelilevadamne10.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Shahrake KelilehVaDamneh</strong>
+  						<p>Comedy,Family Movie</p>
+  						
+  					</div>
+  				</div>
+  			</li>
+  			<!-- slide-box-9------------------>
+  			<li class="item-f">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  					<a href="jeyran.html">
+    <img src="images/jeyran23.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Jeyran</strong>
+  						<p>Drama,Family,Historical Movie</p>
+  					</div>
+  				</div>
+  			</li>			
+			<!-- slide-box-1------------------>
+  			<li class="item-a">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="mehmooni.html">
+    <img src="images/mehmooni19.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Mehmooni</strong>
+  						<p>Comedy,Drama Movie</p>
+  						
+  					</div>
+  				</div>
+  			</li>
+  			<!-- slide-box-5------------------>
+  			<li class="item-d">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="yaghi.html">
+    						<img src="1401/yaghiposter.jpeg">
+						</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Yaghi </strong>
+  						<p>Family,Drama Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  	<!-- slide-box-2------------------>
+  			<li class="item-a">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="atabay.html">
+    						<img src="1400/atabay.jpg">
+						</a>
+  						
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Atabay</strong>
+  						<p>Drama Movie</p>
+  						
+  					</div>
+  				</div>
+  			</li>
+  	<!-- slide-box-3------------------>
+  			<li class="item-b">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="rooziroozegarimerikh.html">
+    <img src="1401/rooziroozegarimerikh.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Roozi Roozegari Merikh</strong>
+  						<p>Comedy,Drama Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  	<!-- slide-box-4------------------>
+  			<li class="item-c">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="sakhtiran3.html">
+    <img src="1400/sakht3.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Sakht Iran 1401</strong>
+  						<p>Drama,Comedy Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  	
+  	<!-- slide-box-6------------------>
+  			<li class="item-e">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="nobatleili.html">
+    <img src="1401/nobatleili.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Nobat Leili</strong>
+  						<p>Drama,Mysteri,Historical Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  	<!-- slide-box-7------------------>
+  			<li class="item-f">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="joker.html">
+    <img src="1401/joker.jpg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Joker</strong>
+  						<p>Comedy,Family Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  	<!-- slide-box-8------------------>
+  			<li class="item-g">
+  				<div class="latest-box">
+  					<!-- img---------------------->
+  					<div class="latest-b-img">
+  						<a href="gorbehsiah.html">
+    <img src="1400/gorbehsiah.jpeg">
+</a>
+  					</div>
+  					<!-- text------------------->
+  					<div class="latest-b-text">
+  						<strong>Gorbe Siah</strong>
+  						<p>Drama Movie</p>
+  					</div>
+  				</div>
+  			</li>
+  												
+		</ul>
+	</section>
+	
+<!-- footer------------------->
+<!-- <footer>
+	<p>, </p>
+	<p>Copyright 2022 - </p>
+</footer> -->
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+	<!-- slider-script--------------------------->
+	<script>
+		$(document).ready(function() {
+	$('#autoWidth,#autoWidth2').lightSlider({
+		autoWidth:true,
+		loop:true,
+		onSliderLoad: function() {
+			$('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+		}
+	});
+  });
+	</script>
 </body>
 </html>

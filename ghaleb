@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Star Movies</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/lightslider.css"/>
+	<!-- js-link------------------>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/lightslider.js"></script>
+	<!-- fav-icon ----------->
+	<link rel="shortcut icon" href="images/staricon.png"/>
+	<!-- using FontAwesome-------->
+	<script src="https://kit.fontawesome.com/c8e4d18c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- movies------------------------------>
+	<div class="movies-heading">
+		<h2>Movies</h2>
+	</div>
+	<section id="movies-list">
+		<!-- box-1------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="ghoorbaghe.html">
+    <img src="1400/ghoorbaghe.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="ghoorbaghe.html">
+				(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-2------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="gisoo.html">    
+    <img src="1400/gisoo.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="gisoo.html">
+			(1400) <!-- Full Movies[In English] With English Subtitles  -->| HD 720p
+			</a>
+		</div>
+		<!-- box-3------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="bootimar.html">    
+    <img src="1400/bootimar.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="bootimar.html">
+				(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-4------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="mehmooni.html">
+    <img src="1400/mehmooni.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="mehmooni.html">
+				(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-5------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="yaghi.html">
+    						<img src="1400/yaghiposter.jpeg">
+						</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="yaghi.html">
+				 (1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-6------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="atabay.html">
+    						<img src="1400/atabay.jpg">
+						</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="atabay.html">
+				(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-7------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="rooziroozegarimerikh.html">
+    <img src="1400/rooziroozegarimerikh.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="rooziroozegarimerikh.html">
+				(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-8------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="sakhtiran3.html">
+    <img src="1400/sakht3.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="sakhtiran3.html">
+			(1400) | HD 720p
+			</a>
+		</div>
+		<!-- box-9------------------------->
+		<div class="movies-box">
+			<!-- img----------------------------->
+			<div class="movies-img">
+				<div class="quality">HDRip</div>
+				<a href="dracula.html">    
+    <img src="1400/dracula.jpg">
+</a>
+			</div>
+			<!-- text----------------------------->
+			<a href="dracula.html">
+			(1400) | HD 720p
+			</a>
+		</div>
+	</section>
+<!-- btns----------------------------------->
+<div class="btns">
+	<a href="page4.html">Previous</a>
+	<a href="page6.html">Next</a>
+</div>
+<!-- footer------------------->
+<!-- <footer>
+	<p>, </p>
+	<p>Copyright 2022 - </p>
+</footer> -->
+
+
+
+
+
+
+
+
+	<!-- slider-script--------------------------->
+	<script>
+		$(document).ready(function() {
+	$('#autoWidth,#autoWidth2').lightSlider({
+		autoWidth:true,
+		loop:true,
+		onSliderLoad: function() {
+			$('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+		}
+	});
+  });
+	</script>
+</body>
+</html>
